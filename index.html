@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Hello This is my Project</h1>
+    <div class="container">
+        <div class="inner-form">
+            <!-- <form > -->
+                <label for="number">Mobail</label>
+                <input  class="input-box" type="tel" name="number" id="number" placeholder="Enter Your Number"  required pattern="[0-9]{10}" >
+
+                <div class="otp-varified"  >
+                    <input  type="tel" name="otp" class="width-input-otp" maxlength="4" value=" ">
+                    <!-- <input type="tel" name="otp" class="width-input-otp" maxlength="1">
+                    <input type="tel" name="otp" class="width-input-otp" maxlength="1">
+                    <input type="tel" name="otp" class="width-input-otp"  maxlength="1" > -->
+                </div>
+
+
+                <input  class="btn"type="submit"value="Save" id="btn-submit"  class="width-input-otp">
+                <!-- <input  class="btn"type="submit" value="verify OTP" id="btn-submit"  class="width-input-otp"> -->
+            
+            
+        </div>
+    </div>
+
+    <script src="js/app1.js"></script>
+    <script src="js/api.js"></script>
+</body>
+</html>

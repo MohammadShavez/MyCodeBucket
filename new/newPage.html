@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Number Display</title>
+    <link rel="stylesheet" href="../css/style.css">
+    
+</head>
+<body>
+
+<div class="container">
+    <div class="inner-form">
+        <label for="name">Name : </label>
+        <input type="text" required name="visitorName" id="visitorName" class="input-box" placeholder="Enter Your Name">
+        <label for="">Date Of Booking</label>
+        <input type="date" name=""required  id="bookingDate"  pattern="\d{2}\d{2}\d{4}" class="input-box" disabled >
+        <label for="">Visiting Date</label>
+        <input type="date" name="" required id="VisitingDate" pattern="\d{2}\d{2}\d{4}" class="input-box">
+        <label for="">Number Of Visitor</label>
+        <input type="tel" name="" required id="numberVisitor" minlength="1"  maxlength="100" class="input-box" value="1">
+
+        <input type="submit" value="Save" id="save" class="btn">
+
+    </div>
+</div>
+
+<script src="../js/app.js"></script>
+</body>
+</html>
