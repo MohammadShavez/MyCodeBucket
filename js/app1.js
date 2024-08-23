@@ -41,7 +41,7 @@ document.querySelector('#btn-submit').addEventListener('click', function() {
         // console.log( "OTP  generate by system" +otp);
         if (userOtp === otp) {
             // console.log("Page change successful");
-            window.location.href = '/new/newPage.html';  // Uncomment to redirect to a new page
+            window.location.href = 'https://mohammadshavez.github.io/MyCodeBucket/new/newPage.html';  // Uncomment to redirect to a new page
         } else {
             alert("Incorrect OTP, please try again.");
         }
